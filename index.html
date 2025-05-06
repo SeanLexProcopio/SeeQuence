@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pattern Prediction Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Predict the Next Number</h1>
+    <p>Coins: <span id="coins">100</span></p>
+    <p>Sequence: <span id="sequence"></span></p>
+    <div class="chart-container">
+      <canvas id="sequenceChart"></canvas>
+    </div>
+
+    <input type="number" id="guess" placeholder="Your guess" />
+    <input type="number" id="bet" placeholder="Bet amount" />
+    <button onclick="makeGuess()">Submit</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
