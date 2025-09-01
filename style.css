@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  color: green;
+  color: #00ff00;
   margin-bottom: 20px;
 }
 
@@ -63,6 +63,7 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
+
 
 
 
