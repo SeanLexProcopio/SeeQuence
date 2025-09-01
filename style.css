@@ -26,11 +26,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
-  color: gold;
-  margin-bottom: 20px;
-}
-
 input {
   padding: 10px;
   margin: 10px 5px;
@@ -68,6 +63,7 @@ button:hover {
   width: 100% !important;
   height: 100% !important;
 }
+
 
 
 
